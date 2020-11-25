@@ -1,0 +1,28 @@
+{
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "rollup -c -w --environment DEV",
+    "build": "rollup -c --environment PROD"
+  },
+  "dependencies": {
+    "preact": "^10.4.8",
+    "preact-router": "^3.2.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@modular-css/processor": "^25.8.2",
+    "@modular-css/rollup": "^25.8.2",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-sucrase": "^3.1.0",
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "postcss-import": "^12.0.1",
+    "rollup": "^2.26.11",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-serve": "^1.0.4",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
